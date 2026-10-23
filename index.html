@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Abdul Wajid</title>
+<style>body{font-family:Arial;background:#f6f1e7;margin:0;line-height:2}header{background:#0F3D2E;color:#fff;padding:25px;text-align:center}.box{background:#fff;margin:12px;padding:16px;border-radius:14px;border-right:6px solid #0F3D2E}.detail{display:none;margin-top:10px;background:#fffbe6;padding:10px;border-radius:8px}.box.open .detail{display:block}</style>
+</head>
+<body>
+<header><h2>📚 استاد نامہ - Abdul Wajid</h2><p>03142028572</p></header>
+<div id="a"></div>
+<script>
+let d=[
+["نیت کی اصلاح","نیت اللہ کی رضا کی رکھیں۔ سوچیں یہ بچے اللہ کی امانت ہیں۔ حدیث: اعمال کا دارومدار نیتوں پر ہے۔ عمل: کلاس سے پہلے 10 سیکنڈ نیت دہرائیں۔"],
+["وضو کا اہتمام","آیت: لَّا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ۔ قرآن کو باوضو چھونا عبادت ہے۔ استاد خود باوضو آئے تو بچے بھی سیکھتے ہیں۔ عمل: باوضو بچے کو ستارہ دیں۔"],
+["قرآن کو اونچی جگہ","قرآن کو زمین پر نہ رکھیں، اس پر کوئی چیز نہ رکھیں۔ یہ تعظیم ہے۔ عمل: کلاس میں ایک اونچی جگہ مخصوص کریں۔"],
+["خاموش توجہ","آیت: وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا۔ جب قرآن پڑھا جائے تو خاموشی سے سنو۔ عمل: تلاوت سے پہلے اشارے سے خاموش کرائیں۔"],
+["سبق کی تیاری","بغیر تیاری وقت ضائع ہے۔ 5 منٹ دہرائی، 20 منٹ نیا سبق، 10 منٹ مشق۔ عمل: رات کو 10 منٹ تیاری۔"],
+["کلاس کنٹرول","نبی ﷺ نے کبھی بچے کو نہ مارا۔ پہلے پیار، پھر اشارہ، پھر پاس بلا کر سمجھائیں۔ عمل: مار کی جگہ ذمہ داری دیں۔"],
+["عمل کو برا کہیں","یہ اصول یاد رکھیں: بچے کو برا نہ کہیں، اس کے عمل کو برا کہیں۔ 'تم جھوٹے ہو' نہیں بلکہ 'جھوٹ برا ہے' کہیں۔"],
+["سوال کا طریقہ","صرف ذہین سے نہیں، ہر بچے سے سوال کریں تاکہ ہر بچہ روز بولے۔ عمل: 3 کمزور بچوں سے روز آسان سوال۔"],
+["والدین سے رابطہ","صرف شکایت نہیں، اچھی خبر بھی دیں۔ 'آج آپ کے بیٹے نے اچھا پڑھا'۔ اس سے والدین آپ کے دوست بنیں گے۔"]
+];
+let h="";d.forEach((x,i)=>{h+=`<div class="box" onclick="this.classList.toggle('open')"><b>${i+1}. ${x[0]}</b><div class="detail">${x[1]}</div></div>`});
+document.getElementById("a").innerHTML=h;
+</script>
+</body>
+</html>
